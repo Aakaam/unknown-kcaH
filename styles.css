@@ -1,0 +1,19 @@
+/* تنظیمات کلی */
+body {
+    background-color: #000000; /* پس‌زمینه سیاه */
+    color: #00FF00; /* متن سبز */
+    font-family: monospace;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* استایل برای متن تایپ‌شده */
+#typing-area {
+    white-space: pre-wrap; /* حفظ فاصله‌ها و خطوط جدید */
+    font-size: 18px;
+    line-height: 1.5;
+}
